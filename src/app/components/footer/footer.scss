@@ -1,0 +1,33 @@
+@import "../../../assets/styles/colors.scss";
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  h4 {
+      margin: 0;
+  }
+
+  .contactBlock .items {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        .contactBlock {
+            width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}

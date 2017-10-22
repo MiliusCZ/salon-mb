@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: #d6d6d6 0 2px 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
