@@ -20,18 +20,22 @@ export const Footer = () => (
         </div>
         <div className="contactBlock">
             <h4>Telefony</h4>
-            <span className="footerItemHeading">Masáže: </span>
-            <a href="tel:+420 605 158 070">+420 605 158 070</a>
-            <br />
-            <span className="footerItemHeading">Kadeřnictví: </span>
-            <a href="tel:+420 608 264 421">+420 608 264 421</a>
-            <br />
-            <span className="footerItemHeading">Kosmetika: </span>
-            <a href="tel:+420 608 618 404">+420 608 618 404</a>
-            <br />
-            <span className="footerItemHeading">Cambridge weight plan: </span>
-            <a href="tel:+420 605 158 070">+420 605 158 070</a>
-            <br />
+            <div className="footerItem">
+                <span className="footerItemHeading">Masáže: </span>
+                <a href="tel:+420 605 158 070">+420 605 158 070</a>
+            </div>
+            <div className="footerItem">
+                <span className="footerItemHeading">Kadeřnictví: </span>
+                <a href="tel:+420 608 264 421">+420 608 264 421</a>
+            </div>
+            <div className="footerItem">
+                <span className="footerItemHeading">Kosmetika: </span>
+                <a href="tel:+420 608 618 404">+420 608 618 404</a>
+            </div>
+            <div className="footerItem">
+                <span className="footerItemHeading">Cambridge weight plan: </span>
+                <a href="tel:+420 605 158 070">+420 605 158 070</a>
+            </div>
         </div>
         <div className="contactBlock">
             <h4>Adresa</h4>

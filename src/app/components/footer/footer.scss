@@ -9,9 +9,22 @@
       margin: 0;
   }
 
-  .contactBlock .items {
+
+  .contactBlock {
+    margin: 20px;
+    .items {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .footerItem {
     display: flex;
     justify-content: space-between;
+  }
+
+  .footerItemHeading {
+    margin-right: 10px;
   }
 }
 
