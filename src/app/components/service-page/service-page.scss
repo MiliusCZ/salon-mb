@@ -1,0 +1,20 @@
+.servicesList {
+    margin: 40px;
+    column-gap: 80px;
+    column-count: 2;
+    column-fill: auto;
+
+    h3 {
+        margin: 0;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .serviceGroup {
+        -webkit-column-break-inside: avoid;
+        margin-bottom: 15px;
+    }
+
+    .serviceRow:nth-child(odd) {
+        background-color: #efefef;
+    }
+}

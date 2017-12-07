@@ -5,7 +5,7 @@
 }
 
 .subsidiaryBox {
-  border: 1px solid silver;
+  border: 1px solid #efefef;
   width: 260px;
 
   h2 {
@@ -16,5 +16,18 @@
 
   img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .subsidiaries {
+    flex-wrap: wrap;
+
+    .subsidiaryBox {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
   }
 }

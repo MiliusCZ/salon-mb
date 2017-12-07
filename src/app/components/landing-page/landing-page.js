@@ -11,8 +11,8 @@ export const LandingPage = () => (
 )
 
 const Subsidiary = ({ name, image, url }) => (
-    <Link to={url}>
-        <div className="subsidiaryBox">
+    <Link to={url} className="subsidiaryBox">
+        <div>
             <h2>{name}</h2>
             <img src={image} />
         </div>
