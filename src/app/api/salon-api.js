@@ -33,8 +33,8 @@ const extractServices = (item) => {
             }) : serviceHeader.Service && [{
                 name: serviceHeader.Service["-nodeName"],
                 id: serviceHeader.Service["-id"],
-                price: serviceHeader.servicePrice,
-                duration: serviceHeader.serviceTime
+                price: serviceHeader.Service.servicePrice,
+                duration: serviceHeader.Service.serviceTime
             }]
         };
     });

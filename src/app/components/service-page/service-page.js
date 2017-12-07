@@ -5,7 +5,11 @@ import salonApi from '../../api/salon-api';
 
 import { TopImage } from '../top-image/top-image';
 
-const Service = ({ data }) => <div className="serviceRow">{data.name}</div>;
+const Service = ({ data }) => <div className="serviceRow">
+<span className="serviceName">{data.name}</span>
+{data.duration && <span className="serviceDuration">{data.duration} min</span>}
+{data.price && <span className="servicePrice">{data.price} Kč</span>}
+</div>;
 
 const ServiceGroup = ({ info }) => (
     <div className="serviceGroup">
