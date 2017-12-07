@@ -3,9 +3,10 @@ import './app.css';
 
 import { Header } from '../components/header/header';
 import { Footer } from '../components/footer/footer';
-import { TopImage } from '../components/top-image/top-image';
 
+import { CambridgePage } from '../components/cambridge-page/cambridge-page';
 import { LandingPage } from '../components/landing-page/landing-page';
+import { ServicePage } from '../components/service-page/service-page';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -17,15 +18,14 @@ export class App extends Component {
         return (
             <div className="container">
                 <Header />
-                <TopImage />
                 <Switch>
                     <Route exact path="/" component={LandingPage} />
-                    <Route path="/masaze" component={TodoComponent} />
-                    <Route path="/kadernictvi" component={TodoComponent} />
-                    <Route path="/kosmetika" component={TodoComponent} />
+                    <Route path="/masaze" component={ServicePage} />
+                    <Route path="/kadernictvi" component={ServicePage} />
+                    <Route path="/kosmetika" component={ServicePage} />
                     <Route
                         path="/cambridge-weight-plan"
-                        component={TodoComponent}
+                        component={CambridgePage}
                     />
                 </Switch>
                 <Footer />

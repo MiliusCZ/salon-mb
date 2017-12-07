@@ -2,10 +2,8 @@ import React from 'react';
 
 import './top-image.scss';
 
-import topImage1 from '../../../assets/images/topimages/massage-top.jpg';
-
-export const TopImage = () => (
+export const TopImage = ({ image }) => (
     <div className="topImage">
-        <img src={topImage1} />
+        <img src={image} />
     </div>
 );

@@ -4,12 +4,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 import image from '../../../assets/images/logo-krivky-orig-header.png';
 
-const navData = [
-    { to: '/masaze', display: 'Masáže' },
-    { to: '/kadernictvi', display: 'Kadeřnictví' },
-    { to: '/kosmetika', display: 'Kosmetika' },
-    { to: '/cambridge-weight-plan', display: 'Cambridge Weight Plan' }
-];
+import salonApi from '../../api/salon-api';
+
+const navData = salonApi.subsidiaries.map(subsidiary => { return { to: subsidiary.url, display: subsidiary.name }});
 
 const links = navData.map((link, index) => (
     <li key={index}>

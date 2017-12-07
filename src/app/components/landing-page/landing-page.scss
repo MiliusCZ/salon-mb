@@ -1,10 +1,10 @@
 .subsidiaries {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
-.subsidiary {
-  margin: 20px;
+.subsidiaryBox {
   border: 1px solid silver;
   width: 260px;
 
