@@ -5,9 +5,6 @@ export const Footer = () => (
     <div className="footer">
         <div className="contactBlock">
             <h4>Kontakty</h4>
-            <span>E-mail: </span>
-            <a href="mailto:salon@mysthic-beauty.cz">salon@mysthic-beauty.cz</a>
-            <br />
             <span>Web: </span>
             <a href="http://www.mysthic-beauty.cz">
                 http://www.mysthic-beauty.cz
@@ -33,7 +30,7 @@ export const Footer = () => (
                 <a href="tel:+420 608 618 404">+420 608 618 404</a>
             </div>
             <div className="footerItem">
-                <span className="footerItemHeading">Cambridge weight plan: </span>
+                <span className="footerItemHeading">Cambridge Weight Plan: </span>
                 <a href="tel:+420 605 158 070">+420 605 158 070</a>
             </div>
         </div>
